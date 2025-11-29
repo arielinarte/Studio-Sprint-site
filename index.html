@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Adaptación responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título con datos del alumno -->
+    <title>Ariel Linarte | Desarrollo Web | Comisión 2 | 2025</title>
+    <link rel="icon" type="image/svg+xml" href="./Assets/img/favicon.svg">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Merriweather & Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Hoja de CSS  -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR (Bootstrap componente) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+              <img src="./Assets/img/SprintStudiowhite.png" alt="Logotipo Ariel Linarte" height="30"> Ariel Linarte
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#banner">Banner</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="pt-5 mt-5 text-center">
+    <div class="container">
+        <h1 style="padding-top: 30px; padding-bottom: 30px;">Diseño Gráfico Digital</h1>
+        <!-- Mi logo Sprint Studio-->
+        <img src="./Assets/img/SprintStudiowhite.png" alt="Logo Ariel Linarte" class="logo-principal">
+        <p class="lead">Descubre el impacto de la creatividad en el entorno digital: tendencias, herramientas y oportunidades en el diseño gráfico moderno.</p>
+        <!-- Imagen principal: una computadora con software de diseño abierto -->
+        <a class="btn btn-primary btn-lg" href="#video">Ver video</a>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <p>
+                    El <strong>diseño gráfico digital</strong> convierte ideas en imágenes, colores y tipografías listas para brillar en la web, aplicaciones móviles y materiales multimedia. Los profesionales del área dominan herramientas como Adobe Illustrator, Photoshop o Canva, combinando creatividad y tecnología en cada proyecto.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Entre las tareas más demandadas en el sector están el <em>diseño de logotipos, la creación de identidades visuales</em>, banners publicitarios, posts para redes sociales y la edición de imágenes y videos. El diseño gráfico digital es esencial para establecer una presencia de marca profesional y coherente.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    La innovación es constante: surgen nuevas tendencias como el diseño 3D, la animación gráfica motion design, el uso de <strong>inteligencia artificial</strong> para generar imágenes y la prioridad en la accesibilidad para todos los públicos.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- SECCIÓN INFO: PASTILLAS DE INFORMACIÓN (usando cards) -->
+    <section id="info" class="bg-primary text-white py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Áreas Clave del Diseño Gráfico Digital</h2>
+        <div class="row g-4 justify-content-center">
+            <!-- Branding Digital -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 info-card hover-card">
+                    <img src="./Assets/img/branding.jpg" class="card-img-top" alt="Branding Digital">
+                    <div class="card-body">
+                        <h5 class="card-title">Branding Digital</h5>
+                        <p class="card-text">Diseñar el ADN visual de una marca adaptado a pantallas: logotipos, paletas de color y manuales de identidad digital.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Diseño Web y UI/UX -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 info-card hover-card">
+                    <img src="./Assets/img/UIUX.jpg" class="card-img-top" alt="Diseño Web y UI/UX">
+                    <div class="card-body">
+                        <h5 class="card-title">Diseño Web y UI/UX</h5>
+                        <p class="card-text">
+                            Crear sitios web atractivos, accesibles y funcionales con prototipos interactivos y conceptos de experiencia de usuario.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Ilustración Digital -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 info-card hover-card">
+                    <img src="./Assets/img/illustracion-digital.jpg" class="card-img-top" alt="Ilustración Digital">
+                    <div class="card-body">
+                        <h5 class="card-title">Ilustración Digital</h5>
+                        <p class="card-text">Desarrollo de dibujos, infografías y personajes en formato vectorial o raster, mediante tabletas y software especializado.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Publicidad y Redes Sociales -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 info-card hover-card">
+                    <img src="./Assets/img/publicidad.jpg" class="card-img-top" alt="Publicidad y Redes Sociales">
+                    <div class="card-body">
+                        <h5 class="card-title">Redes Sociales</h5>
+                        <p class="card-text">Diseño de imágenes, animaciones y videos para campañas y publicaciones, optimizando contenido para Instagram, Facebook y TikTok.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- SECCIÓN BANNER CAROUSEL (Bootstrap componente obligatorio) -->
+    <section id="banner" class="bg-white py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Galería de Proyectos</h2>
+        <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Assets/img/webdesign.jpg" class="d-block w-100" alt="Sitio Web para Emprendimiento">
+                    <div class="carousel-caption d-none d-md-block caption-dark">
+                        <h5>Sitio Web Minimalista</h5>
+                        <p>Proyecto de identidad visual y diseño web para un emprendimiento local.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Assets/img/branding2.jpg" class="d-block w-100" alt="Branding">
+                    <div class="carousel-caption d-none d-md-block caption-light">
+                        <h5>Branding para Startup</h5>
+                        <p>Creación de marca, paleta cromática y piezas para redes sociales.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Assets/img/digitalIlustration.jpg" class="d-block w-100" alt="Ilustración Digital">
+                    <div class="carousel-caption d-none d-md-block caption-light">
+                        <h5>Ilustración Editorial</h5>
+                        <p>Ilustración original para revista digital con técnicas mixtas.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- SECCIÓN VIDEO -->
+    <section id="video" class="bg-secondary text-white py-5">
+    <div class="container text-center">
+        <h2>¿Qué es el diseño gráfico digital?</h2>
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/a7sEoEvT8l8" title="Design Thinking para equipos creativos" allowfullscreen></iframe>
+        </div>
+        <p class="mt-3">Conoce cómo los diseñadores gráficos impulsan la comunicación y el éxito de marcas, empresas y productos en el mundo digital.</p>
+    </div>
+</section>
+
+    
+    <!-- SECCIÓN CONTACTO (formulario con 4 campos) -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Apellido" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="E-mail" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Comentario" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- FOOTER con datos del alumno y redes -->
+    <footer class="bg-dark text-white py-4 mt-4">
+        <div class="container text-center">
+            <img src="./Assets/img/SprintStudiowhite.png" alt="Logo Footer" height="30"><br>
+            <small>
+                Ariel Linarte | Desarrollo Web | Turno Nocturno | Comisión 2 - Escuela Multimedial Da Vinci| 2025<br>
+                <a href="https://linkedin.com/in/arielinarte" class="text-info mx-2 footer-social-link" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/arielinarte" class="text-danger mx-2 footer-social-link" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="mailto:arielinarte.77@gmail.com" class="text-warning mx-2 footer-social-link" aria-label="Email">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+            </small>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
